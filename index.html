@@ -11,17 +11,37 @@
         body {
             background-color: #f8f9fa;
         }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand img {
+            margin-right: 10px;
+        }
         .jumbotron {
             background-color: #007bff;
             color: #fff;
-            padding: 80px;
+            padding: 80px 20px;
+            margin-bottom: 0;
+        }
+        .jumbotron h1 {
+            font-size: 2.5rem;
         }
         .feature-section {
             padding: 50px 0;
+            background-color: #fff;
+        }
+        .feature-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .feature-section p {
+            font-size: 1.2rem;
+            color: #555;
         }
         .app-screenshot {
             max-width: 100%;
             height: auto;
+            margin-top: 20px;
         }
         .video-container {
             position: relative;
@@ -29,6 +49,7 @@
             padding-top: 30px;
             height: 0;
             overflow: hidden;
+            background-color: #000;
         }
         .video-container iframe {
             position: absolute;
@@ -42,7 +63,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="path/to/your/logo.png" alt="MAAS Coffee Logo" height="40">
@@ -93,7 +114,7 @@
 </div>
 
 <!-- Video Section -->
-<div class="container-fluid bg-dark text-white text-center video-container">
+<div class="container-fluid text-center video-container">
     <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
 </div>
 
